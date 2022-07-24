@@ -10,7 +10,6 @@ export default function Footer(props) {
             return <ion-icon name="checkmark-circle" class={item}></ion-icon>;
         }
     }
-
     function countAppereaces(array, item) {
         let count = 0;
         for (const i of array) {
@@ -20,7 +19,6 @@ export default function Footer(props) {
         }
         return count;
     }
-
     function finishDeck() {
         if (countAppereaces(resultArray, "bad") > totalCards - goal) {
             return (
@@ -37,7 +35,6 @@ export default function Footer(props) {
             </>
         );
     }
-
     return (
         <footer className={resultArray.length !== totalCards ? "" : "finished"}>
             <div className="counter">

@@ -10,7 +10,6 @@ export default function Card(props) {
         setStatus(result);
         props.updateResult(result);
     }
-
     function StatusIcon() {
         if (status === "bad") {
             return <ion-icon name="close-circle"></ion-icon>;
@@ -20,7 +19,6 @@ export default function Card(props) {
             return <ion-icon name="checkmark-circle"></ion-icon>;
         }
     }
-
     return (
         <div className={`card ${stage} ${status}`}>
             {stage === "close" ? (
