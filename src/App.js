@@ -11,11 +11,11 @@ export default function App() {
         react: [
             {
                 q: "O que é JSX?",
-                answer: "Uma extensão de linguagem do JavaScrip",
+                answer: "Uma extensão de linguagem do JavaScrip que utiliza o estilo de sintaxe do HTML",
             },
             {
                 q: "O React é __ ",
-                answer: "uma biblioteca JavaScript para construção de interfaces",
+                answer: "uma biblioteca JavaScript open-souerce para construção de interfaces",
             },
             { q: "Podemos colocar __ dentro do JSX", answer: "expressões" },
             {
@@ -58,11 +58,11 @@ export default function App() {
             },
             {
                 q: "Quem é responsável por estilizar o HTML?",
-                answer: "CSS",
+                answer: "O CSS",
             },
             {
                 q: "O que sa tag <title> faz?",
-                answer: "Dá um título a página web, ou seja, nomeia a guia",
+                answer: "Dá um título a página web, ou seja, nomeia a guia ",
             },
             {
                 q: "O que significa 'utf-8'?",
@@ -92,7 +92,7 @@ export default function App() {
             },
             {
                 q: "Usamos estado (state) para __",
-                answer: "dizer para o React quais informações quando",
+                answer: "criar estados em um componente criado a partir de uma função, dizemos para o React quais informações quando",
             },
             {
                 q: "BackEnd é __",
@@ -100,7 +100,7 @@ export default function App() {
             },
             {
                 q: "o que significa a sigla IP?",
-                answer: "Internet Protocol",
+                answer: "Significa Internet Protocol",
             },
             {
                 q: "O que significa HTML?",
